@@ -160,12 +160,12 @@ em, cite {
   stroke-dasharray: 870;
   stroke-dashoffset: 870;
   
-  -webkit-animation: draw 5s forwards linear; /* Safari 4+ */
-  -moz-animation: draw 5s forwards linear; /* Fx 5+ */
-  -o-animation: draw 5s forwards linear; /* Opera 12+ */
-  animation:  draw 5s forwards linear; /* IE 10+, Fx 29+ */
+  -webkit-animation: draw 8s forwards linear; /* Safari 4+ */
+  -moz-animation: draw 8s forwards linear; /* Fx 8+ */
+  -o-animation: draw 8s forwards linear; /* Opera 12+ */
+  animation:  draw 8s forwards linear; /* IE 10+, Fx 29+ */
   animation-iteration: 1;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 
 }
 
@@ -176,10 +176,10 @@ em, cite {
   stroke-dasharray: 870;
   stroke-dashoffset: 870;
 
-	-webkit-animation: draw 8s forwards linear; /* Safari 4+ */
-	-moz-animation: draw 8s forwards linear; /* Fx 5+ */
-	-o-animation: draw 8s forwards linear; /* Opera 12+ */
-	animation:  draw 8s forwards linear; /* IE 10+, Fx 29+ */
+	-webkit-animation: draw 9s forwards linear; /* Safari 4+ */
+	-moz-animation: draw 9s forwards linear; /* Fx 5+ */
+	-o-animation: draw 9s forwards linear; /* Opera 12+ */
+	animation:  draw 9s forwards linear; /* IE 10+, Fx 29+ */
 	animation-iteration: 1;
 	animation-delay: 1.5s;
 }
@@ -193,8 +193,8 @@ em, cite {
 	stroke-dashoffset: 870;
 	animation-iteration: 1;
 	animation-name: draw, FillIn;
-  animation-duration: 8s, 2s;
-  animation-delay: 0.6s, 2s;
+  animation-duration: 11s, 2s;
+  animation-delay: 0s, 2s;
 
 }
 
@@ -255,7 +255,7 @@ Animations
 }
 
 .ip-loader {
-	top: 45%;
+	top: 40%;
 	margin-top: -10px;
 }
 
@@ -641,7 +641,7 @@ footer .half.scroll {
 	}
 	
 	#intro {
-		min-height: 555px !important;
+		min-height: 700px !important;
 	}
 	
 	#intro, #intro .container {
@@ -681,6 +681,16 @@ footer .half.scroll {
 		display: none !important;
 	}
 	
+	.hero p {
+    font-size: 1.3em;
+	}
+
+	.pointer{
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	}
+
 	.half.left,
 	.half.right{
 		width: 92%;
@@ -704,13 +714,9 @@ footer .half.scroll {
 		display: block;
 		position: absolute;
 		bottom: -120px;
-		width: 40px;
-		height: 40px;
+		width: 70px;
+		height: 70px;
 		left: 16%;
-	}
-	
-	#imprint h1 {
-		text-align: left;
 	}
 	
 	.back  {
