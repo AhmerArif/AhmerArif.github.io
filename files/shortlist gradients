@@ -1,0 +1,63 @@
+shortlist gradients
+
+background: #114357;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+#weird blue
+background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+#slanted cool
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #992C4B, #33384E, #003E4F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #992C4B, #33384E, #003E4F 65% ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+#black
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #000000, #434343);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background-image: linear-gradient(to right, #434343 , black 80%);
+
+#COOL
+background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A43931 , #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+#plum
+background: #F0C27B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+#nightfall
+background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+
+#Sharp blue
+background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+
+#Red Salvation
+background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%);
+
+#Midnight Bloom
+background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+
+#Vicious Stance
+background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+
+#nice blue
+background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+#love couple
+background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+#Red ocean
+background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
