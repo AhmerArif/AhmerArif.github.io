@@ -138,7 +138,7 @@ PATHLOADER
 							onEndHeaderAnimation();
 						}
 					}
-				}, 115 );
+				}, 90 );
 		};
 
 		loader.setProgressFn( simulationFn );

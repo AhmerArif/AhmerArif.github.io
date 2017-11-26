@@ -153,82 +153,6 @@ em, cite {
 	display: none;
 }
 
-.large-square {
-  fill-opacity: 0;
-  stroke: #2C313B;
-  stroke-width: 0.45;
-  stroke-dasharray: 870;
-  stroke-dashoffset: 870;
-  
-  -webkit-animation: draw 8s forwards linear; /* Safari 4+ */
-  -moz-animation: draw 8s forwards linear; /* Fx 8+ */
-  -o-animation: draw 8s forwards linear; /* Opera 12+ */
-  animation:  draw 8s forwards linear; /* IE 10+, Fx 29+ */
-  animation-iteration: 1;
-  animation-delay: 0.5s;
-
-}
-
-.small-square {
-  fill-opacity: 0;
-  stroke: #2C313B;
-  stroke-width: 0.45;
-  stroke-dasharray: 870;
-  stroke-dashoffset: 870;
-
-	-webkit-animation: draw 9s forwards linear; /* Safari 4+ */
-	-moz-animation: draw 9s forwards linear; /* Fx 5+ */
-	-o-animation: draw 9s forwards linear; /* Opera 12+ */
-	animation:  draw 9s forwards linear; /* IE 10+, Fx 29+ */
-	animation-iteration: 1;
-	animation-delay: 1.5s;
-}
-
-.line-one {
-	fill-opacity: 0;
-	fill: #2C313B;
-	stroke: #2C313B;
-	stroke-width: 1;
-	stroke-dasharray: 870;
-	stroke-dashoffset: 870;
-	animation-iteration: 1;
-	animation-name: draw, FillIn;
-  animation-duration: 11s, 2.5s;
-  animation-delay: 0s, 2.5s;
-
-}
-
-@-webkit-keyframes draw {
- from {
-    stroke-dashoffset: 1000;
-  }	
-	
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes draw {
-from {
-   stroke-dashoffset: 1000;
- }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-
-@-webkit-keyframes FillIn {
-  from { fill-opacity: 0; }
-  to { fill-opacity: 1; }
-
-}
-
-@keyframes FillIn {
-  from { fill-opacity: 0; }
-  to { fill-opacity: 1; }
-}
-
 /* -------------------------------- 
 
 Animations
@@ -260,9 +184,9 @@ Animations
 }
 
 .ip-header .ip-inner {
-	display: flex;
+	display: block;
 	margin: 0 auto;
-	align-items: center;
+	text-align: center
 }
 
 
@@ -282,6 +206,24 @@ Animations
 	opacity: 1;
 	-webkit-animation: animInitialHeader 0.4s cubic-bezier(0.7,0,0.3,1) both;
 	animation: animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both;
+}
+
+.b1 {
+  animation: stroke_fill 3s linear forwards;
+  stroke-dasharray: 324.774;
+  stroke-dashoffset: 324.774;
+}
+@keyframes stroke_fill {
+  0% {
+    fill: white;
+  }
+  50% {
+    fill: white;
+  }
+  100% {
+    fill: #29323c;
+    stroke-dashoffset: 0;
+  }
 }
 
 @-webkit-keyframes animInitialHeader {
