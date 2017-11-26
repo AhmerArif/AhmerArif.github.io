@@ -194,7 +194,7 @@ em, cite {
 	animation-iteration: 1;
 	animation-name: draw, FillIn;
   animation-duration: 11s, 2.5s;
-  animation-delay: 0s, 2s;
+  animation-delay: 0s, 2.5s;
 
 }
 
